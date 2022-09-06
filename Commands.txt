@@ -1,0 +1,20 @@
+
+
+POST /users - creates a new user.
+GET /users/{uid} - returns the details for the user identified by uid.
+GET /users - returns the list of users.
+POST /routes - creates a new route.
+GET /routes/{rid} - returns the details for the route identified by rid.
+GET /routes - returns the list of routes.
+POST /sports - creates a new sport.
+GET /sports - returns a list with all sports.
+GET /sports/{sid} - returns the detailed information for the sport identified by sid.
+POST /sports/{sid}/activities - creates a new activity for the sport identified by sid.
+GET /sports/{sid}/activities - returns all the activities for the sport identified by sid.
+GET /sports/{sid}/activities/{aid} - returns the full information for the activity aid.
+GET /users/{uid}/activities - returns all the activities made from the user identified by uid.
+GET /tops/activities - returns a list with the activities.
+DELETE /users/{uid}/activities - removes the identified activities from user uid.
+OPTION / - presents a list of available commands and their description.
+EXIT / - terminates the application.
+
